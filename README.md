@@ -1,75 +1,29 @@
-# Nuxt UI Minimal Starter
+# Tabela de Criptomoedas
 
-Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more.
+Este projeto é um componente desenvolvido em **Nuxt 3** que exibe uma tabela com informações sobre 5 criptomoedas, incluindo suas variações percentuais em 24 horas e 7 dias, além do preço atual em reais (BRL).
 
-## Setup
+## Tecnologias Utilizadas
 
-Make sure to install the dependencies:
+- **Nuxt 3**
+- **Nuxt UI**
+- **Tailwind CSS**
+- **APIs**:
+  - [Coinlore API](https://www.coinlore.com/): para dados das criptomoedas.
+  - [AwesomeAPI](https://docs.awesomeapi.com.br/): para cotação do dólar (USD para BRL).
+- **Deploy**: Vercel
 
-```bash
-# npm
-npm install
+## Funcionalidades
 
-# pnpm
-pnpm install
+- **Exibição de Criptomoedas**: Mostra os símbolos, nomes, variações percentuais (24 horas e 7 dias) e o valor atual em BRL.
+- **Atualização Dinâmica**: As informações são obtidas de duas APIs externas e podem ser atualizadas a qualquer momento.
+- **Feedback de Carregamento e Erro**: Exibe mensagens para indicar o status da requisição (carregando ou erro).
+- **Estilização Responsiva**: Utilizando Tailwind CSS, o componente é responsivo e inclui estilos dinâmicos que destacam mudanças positivas ou negativas nos valores das criptomoedas.
 
-# yarn
-yarn install
+MIT License
 
-# bun
-bun install
-```
+Copyright (c) 2024 Thiago C Santos
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
-npm run dev
 
-# pnpm
-pnpm run dev
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
