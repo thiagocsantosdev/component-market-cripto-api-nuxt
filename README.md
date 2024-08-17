@@ -2,6 +2,8 @@
 
 Este projeto é um componente desenvolvido em **Nuxt 3** que exibe uma tabela com informações sobre 5 criptomoedas, incluindo suas variações percentuais em 24 horas e 7 dias, além do preço atual em reais (BRL).
 
+Você pode visualizar o projeto ao vivo [neste link](https://component-market-cripto-api-nuxt.vercel.app/).
+
 ## Tecnologias Utilizadas
 
 - **Nuxt 3**
